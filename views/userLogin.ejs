@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= title %>
+    </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body class="<%= session.usuario.color %>">
+    <main>
+
+        <div class="row d-flex justify-content-center">
+            <div class="col-12 col-md-12 col-lg-14 mx-auto d-flex justify-content-center">
+              <div class="card containerBox d-flex justify-content-center">
+                <div class="card-body containerForm ">
+                  <h1 >
+                    ༻✦༺༻✧༺༻✦༺༻✧༺
+                    <br>
+                    ── {<span class="fst-italic text-primary"><%= session.usuario.name %> </span> } ──
+                    <br>
+                    ༻✧༺༻✦༺༻✧༺༻✦༺
+                  </h1>
+                  <h2>Gracias por visitarnos!</h2>
+                  <a href="/userLogin/logut">cerrar sesion</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        
+
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
